@@ -4,7 +4,7 @@ module Leather
 
     included do
       extend        ClassMethods
-      helper_method :current_tab, :current_tab?
+      helper_method :current_tab, :current_tab? if respond_to?(:helper_method)
     end
 
     protected
