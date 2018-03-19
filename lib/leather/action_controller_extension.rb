@@ -30,7 +30,7 @@ module Leather
         options = args.extract_options!
         name, namespace = args
 
-        before_filter(options) do |controller|
+        before_action(options) do |controller|
           controller.send(:set_tab, name, namespace)
         end
       end
