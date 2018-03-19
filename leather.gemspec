@@ -5,7 +5,7 @@ require "leather/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "leather"
+  s.name        = "leather2"
   s.version     = Leather::VERSION
   s.authors     = ["David Van Der Beek"]
   s.email       = ["david@flyoverworks.com"]
